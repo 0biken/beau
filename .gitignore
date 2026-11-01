@@ -1,0 +1,11 @@
+node_modules/
+.review/
+.playwright-cli/
+.cache/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+/KARMA_Groups_Beauty_Wellness_Marketplace_PRD_v1.docx
