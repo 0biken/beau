@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/Beau_Website/index.html" },
+    { "source": "/index.html", "destination": "/Beau_Website/index.html" },
+    { "source": "/styles.css", "destination": "/Beau_Website/styles.css" },
+    { "source": "/app.js", "destination": "/Beau_Website/app.js" },
+    { "source": "/assets/:match*", "destination": "/Beau_Website/assets/:match*" },
+    { "source": "/proposal", "destination": "/Beau_Proposal.html" },
+    { "source": "/prd", "destination": "/Beau_PRD_v2.md" }
+  ]
+}
