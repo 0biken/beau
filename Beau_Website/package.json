@@ -1,8 +1,0 @@
-{
-  "name": "beau-proposal-and-prd",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Beau proposal website and integrated product requirements",
-  "scripts": { "start": "node server.cjs", "build": "node build.mjs" },
-  "devDependencies": { "marked": "17.0.5" }
-}
